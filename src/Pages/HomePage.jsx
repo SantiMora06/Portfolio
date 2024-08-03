@@ -1,5 +1,8 @@
+import Header from "../Components/Header";
+
 const HomePage = () => {
     return (<>
+        <Header />
         HEADER
         HOME - PROJECTS - ABOUT - CONTACT
         MAIN

@@ -1,0 +1,21 @@
+ul.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.Navlink {
+    text-decoration: none;
+}
+
+.Navlink :hover {
+    text-transform: uppercase;
+}
+
+.main {
+    padding-inline-start: 2em;
+    padding-inline-end: 0;
+}
