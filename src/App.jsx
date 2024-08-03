@@ -1,17 +1,19 @@
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./Pages/HomePage"
+import ProjectsPage from "./Pages/ProjectsPage"
+import AboutPage from "./Pages/AboutPage"
+import ContactPage from "./Pages/ContactPage"
 
 
 function App() {
   return <> <Routes>
-    <Route path="/" element={HomePage}></Route>
-    <Route path="/projects" element={HomePage}></Route>
-    <Route path="/about" element={AboutPage}></Route>
-    <Route path="/contact" element={ContactPage}></Route>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/projects" element={<ProjectsPage />} />
+    <Route path="/about" element={<AboutPage />} />
+    <Route path="/contact" element={<ContactPage />} />
 
   </Routes>
-
-    Ready to code with Mantine, a router would be nice in there 😺</>
+  </>
 }
 
 export default App
