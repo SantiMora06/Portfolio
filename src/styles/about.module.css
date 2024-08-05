@@ -1,0 +1,35 @@
+.container {
+    padding-top: 6%;
+}
+
+.name {
+    font-size: 4em;
+}
+
+.job {
+    font-size: 3.5em;
+}
+
+.description {
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.188);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1% 10%;
+    padding: 4em 4em;
+}
+
+.list {
+    background-color: rgba(0, 0, 0, 0.188);
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 10% 5% 10%;
+    padding: 4em 4em;
+    align-items: flex-start;
+}
