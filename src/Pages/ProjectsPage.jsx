@@ -1,5 +1,9 @@
+import Projects from "../Components/Projects";
+
 const ProjectsPage = () => {
-    return (<>This is the projects Page</>);
+    return (<>
+        <Projects />
+    </>);
 }
 
 export default ProjectsPage;

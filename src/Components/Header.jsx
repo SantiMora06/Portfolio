@@ -6,15 +6,15 @@ const Header = () => {
 
 
     return (<>
-
-        <ul className={classes.header}>
-            <li className={classes.navItemActive}> <Link to="/" className={classes.Navlink}>Home</Link></li>
-            <li className={classes.navItem}> <Link to="/projects" className={classes.Navlink}>Projects</Link></li>
-            <li className={classes.navItem}> <Link to="/about" className={classes.Navlink}> About</Link> </li>
-            <li className={classes.navItem}> <Link to="/contact" className={classes.Navlink}>Contact</Link></li>
-            <li className={classes.navItem}><img src={santi} alt="Santi Mora" /></li>
-        </ul>
-
+        <section className={classes.prehead}>
+            <ul className={classes.header}>
+                <li className={classes.navItemActive}> <Link to="/" className={classes.Navlink}>Home</Link></li>
+                <li className={classes.navItem}> <Link to="/projects" className={classes.Navlink}>Projects</Link></li>
+                <li className={classes.navItem}> <Link to="/about" className={classes.Navlink}> About</Link> </li>
+                <li className={classes.navItem}> <Link to="/contact" className={classes.Navlink}>Contact</Link></li>
+                <li className={classes.navItem}><img src={santi} alt="Santi Mora" /></li>
+            </ul>
+        </section>
     </>);
 }
 

@@ -15,7 +15,7 @@ const HomePage = () => {
                     <h2>I build websites</h2>
                     <p className={classes.content}>Before starting, I want to thank you for checking my portfolio and I invite you to navigate all over the web to see what I am capable of and my current, but not static,
                         skillset. You may think that I am just another new Web Developer, and in a sense I am, but thanks to my background as a photographer, journalist, content creator and
-                        Social Media Manager, I am far more than a simple applicant.</p>
+                        Social Media Manager, I am far more than a simple applicant, I am a Fullstack Web Developer!</p>
                 </section>
             </section>
             <h3>Featured Projects</h3>
