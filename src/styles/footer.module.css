@@ -1,0 +1,20 @@
+.footer {
+    background-color: white;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.footer li {
+    display: flex;
+    color: rgba(1, 1, 87, 0.879);
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
