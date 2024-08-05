@@ -1,7 +1,8 @@
 .footer {
     background-color: white;
     padding: 1em;
-    margin-top: 2em;
+    margin-top: auto;
+    z-index: 3;
 }
 
 .footer ul {
