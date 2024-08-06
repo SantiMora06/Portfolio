@@ -1,10 +1,25 @@
 html {
+    font-family: "PT Sans Narrow", sans-serif;
     background-color: rgba(1, 1, 87, 0.879);
 }
 
 div#root {
+    font-family: "PT Sans Narrow", sans-serif;
     background-color: rgba(1, 1, 87, 0.879);
 }
+
+.pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-narrow-bold {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 h1 {
     font-size: 2.2em;
