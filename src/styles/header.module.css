@@ -31,3 +31,75 @@ img {
     padding-inline-start: 2em;
     padding-inline-end: 0;
 }
+
+@media (width >=770px) and (width <=1020px) {
+    ul.header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: center;
+        background-color: white;
+        border-top: 1em;
+
+    }
+
+    .prehead {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+
+    img {
+        height: 45px;
+        border-radius: 40%;
+    }
+
+    .Navlink {
+        text-decoration: none;
+        color: rgba(1, 1, 87, 0.879);
+        font-weight: bold;
+    }
+
+    .main {
+        padding-inline-start: 2em;
+        padding-inline-end: 0;
+    }
+}
+
+@media (width >=425px) and (width <=769px) {
+    ul.header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: center;
+        background-color: white;
+        border-top: 1em;
+
+    }
+
+    .prehead {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+
+    img {
+        height: 20px;
+        border-radius: 40%;
+    }
+
+    .Navlink {
+        text-decoration: none;
+        color: rgba(1, 1, 87, 0.879);
+        font-weight: bold;
+    }
+
+    .main {
+        padding-inline-start: 2em;
+        padding-inline-end: 0;
+    }
+}
