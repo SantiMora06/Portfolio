@@ -36,10 +36,16 @@ const Projects = () => {
                     to check it out by yourself. So far all the functions are available for the user to have the pov of a customer and also as an admin!
                 </p>
                 <div className={classes.imgContainer}>
-                    <img src={vintage} alt="photo of the vintage web app" className={classes.images} />
-                    <img src={vintage1} alt="photo of the vintage web app" className={classes.images} />
-                    <img src={vintage2} alt="photo of the vintage web app" className={classes.images} />
-                    <img src={vintage3} alt="photo of the vintage web app" className={classes.images} />
+                    <div className={classes.imgs}>
+                        <img src={vintage} alt="photo of the vintage web app" className={classes.images} />
+                        <img src={vintage1} alt="photo of the vintage web app" className={classes.images} />
+                    </div>
+                    <div className={classes.imgs}>
+                        <img src={vintage2} alt="photo of the vintage web app" className={classes.images} />
+                        <img src={vintage3} alt="photo of the vintage web app" className={classes.images} />
+                    </div>
+
+
                 </div>
                 <h3>Project skillset: </h3>
                 <ul className={classes.list}>
@@ -74,10 +80,14 @@ const Projects = () => {
                     and try to not lose all your lives! Spoiler alert: if you are a sensitive person, do not go over the info section.
                 </p>
                 <div className={classes.imgContainer}>
-                    <img src={spear} className={classes.images} />
-                    <img src={spear1} className={classes.images} />
-                    <img src={spear2} className={classes.images} />
-                    <img src={spear3} className={classes.images} />
+                    <div className={classes.imgs}>
+                        <img src={spear} className={classes.images} />
+                        <img src={spear1} className={classes.images} />
+                    </div>
+                    <div className={classes.imgs}>
+                        <img src={spear2} className={classes.images} />
+                        <img src={spear3} className={classes.images} />
+                    </div>
                 </div>
                 <h3>Project skillset: </h3>
                 <ul className={classes.list}>
@@ -94,10 +104,14 @@ const Projects = () => {
                     have defined, you can also add or remove exercises, and some other features that are yet come!
                 </p>
                 <div className={classes.imgContainer}>
-                    <img src={fatfuckers} className={classes.images} />
-                    <img src={fat} className={classes.images} />
-                    <img src={fat1} className={classes.images} />
-                    <img src={fat2} className={classes.images} />
+                    <div className={classes.imgs}>
+                        <img src={fatfuckers} className={classes.images} />
+                        <img src={fat} className={classes.images} />
+                    </div>
+                    <div className={classes.imgs}>
+                        <img src={fat1} className={classes.images} />
+                        <img src={fat2} className={classes.images} />
+                    </div>
                 </div>
                 <h3>Project skillset: </h3>
                 <ul className={classes.list}>
@@ -133,10 +147,14 @@ const Projects = () => {
                     the personal value on this one is out of limits!
                 </p>
                 <div className={classes.imgContainer}>
-                    <img src={queseria} className={classes.images} />
-                    <img src={queseria1} className={classes.images} />
-                    <img src={queseria2} className={classes.images} />
-                    <img src={queseria3} className={classes.images} />
+                    <div className={classes.imgs}>
+                        <img src={queseria} className={classes.images} />
+                        <img src={queseria1} className={classes.images} />
+                    </div>
+                    <div className={classes.imgs}>
+                        <img src={queseria2} className={classes.images} />
+                        <img src={queseria3} className={classes.images} />
+                    </div>
                 </div>
                 <h3>Project skillset: </h3>
                 <ul className={classes.list}>
