@@ -366,17 +366,17 @@ ul {
     }
 }
 
-@media (width < 425px) {
+@media (max-width: 425px) {
     h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.3em;
+        font-size: 0.8em;
         color: rgb(214, 214, 214);
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 0.6em;
         display: flex;
         justify-content: center;
         color: white;
@@ -384,8 +384,8 @@ ul {
 
     .paragraph {
         display: flex;
-        margin: 0.5em 1.25%;
-        font-size: 0.75em;
+        margin: 0.25em 1%;
+        font-size: 0.4em;
         color: white;
     }
 
@@ -409,7 +409,7 @@ ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 2.5%;
+        margin: 1.25%;
     }
 
     .projects {
@@ -431,10 +431,10 @@ ul {
 
     .images {
         display: flex;
-        height: 40px;
-        width: 100px;
+        height: 20px;
+        width: 60px;
         border-radius: 0;
-        margin: 1em;
+        margin: 0.75em;
         transition: transform 0.3 ease-in;
     }
 
@@ -443,7 +443,7 @@ ul {
     }
 
     .list {
-        padding: 0.25em;
+        padding: 0.125em;
         background-color: rgba(255, 255, 255, 0.574);
         display: flex;
         overflow: hidden;
@@ -475,8 +475,8 @@ ul {
     }
 
     .list img {
-        min-width: 30px;
-        margin-right: 30px;
+        min-width: 20px;
+        margin-right: 20px;
     }
 
     .list-inner {

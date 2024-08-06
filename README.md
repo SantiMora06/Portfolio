@@ -1,8 +1,17 @@
-# React + Vite
+# Santi Mora's Porfolio
+
+## Overview
+
+Hello! This is my portfolio and I am a fullstack Web Developer! Check it and you will discover which are my strenghts and in what I can help you in your business.
+I'm 29 years old and fresh graduate from Ironhack School at the Web Developer Bootcamp!
+
+In here you'll see some of my projects and the technologies I domain, also you will be able to download my CV!
+
+Thank you for reaching me and, just in case you were curious, I am a fullstack Web Developer focused on Frontend with React and on Backend with Node and Express, also with some experience in MongoDB and it's features.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- [Here you can reach me on LinkedIn](https://github.com/vitejs/vite-plugin-react-swc)

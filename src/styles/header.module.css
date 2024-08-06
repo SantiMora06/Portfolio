@@ -103,3 +103,39 @@ img {
         padding-inline-end: 0;
     }
 }
+
+@media (max-width: 425px) {
+    ul.header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: center;
+        background-color: white;
+        border-top: 1em;
+
+    }
+
+    .prehead {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+
+    img {
+        height: 10px;
+        border-radius: 40%;
+    }
+
+    .Navlink {
+        text-decoration: none;
+        color: rgba(1, 1, 87, 0.879);
+        font-weight: bold;
+    }
+
+    .main {
+        padding-inline-start: 2em;
+        padding-inline-end: 0;
+    }
+}
