@@ -25,6 +25,11 @@ a {
     color: rgba(1, 1, 87, 0.879);
 }
 
+h1 a {
+    color: white;
+    text-decoration: underline;
+}
+
 ul {
     margin-block-start: 0;
     margin-block-end: 0;

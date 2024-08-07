@@ -23,6 +23,7 @@ import html from "../assets/html.png"
 import git from "../assets/git.webp"
 import github from "../assets/image.png"
 import css from "../assets/css.png"
+import { Link } from "react-router-dom"
 
 
 const Projects = () => {
@@ -30,7 +31,7 @@ const Projects = () => {
     return (<>
         <section className={classes.projects}>
             <section className={classes.vintage}>
-                <h1>Vintage Reborn</h1>
+                <h1><Link to="https://vintagereborn.netlify.app/">Vintage Reborn</Link></h1>
                 <p className={classes.paragraph}>This has been my biggest challenge so far and the one I'm most proud of. With the help of 2 other collegues, we created an ecommerce shop build in React, Node.js, Express.js and Mongo DB Atlas.
                     It took up to 2 weeks to complete the web but the result is amazing. Simple layout with extra funtionalities for admins and also for users. I encourage you
                     to check it out by yourself. So far all the functions are available for the user to have the pov of a customer and also as an admin!
@@ -75,7 +76,7 @@ const Projects = () => {
                 </ul>
             </section>
             <section className={classes.spear}>
-                <h1>Spear The Fish!</h1>
+                <h1><Link to="https://santimora06.github.io/Spear-the-fish-game/" >Spear The Fish!</Link></h1>
                 <p className={classes.paragraph}>My first game available on the web. Fully build on JavaScript and some CSS with a vintage layout in just one week! I do not have much more to say, deep in, take a deep breath
                     and try to not lose all your lives! Spoiler alert: if you are a sensitive person, do not go over the info section.
                 </p>
@@ -98,7 +99,7 @@ const Projects = () => {
                 </ul>
             </section>
             <section className={classes.fat}>
-                <h1>FatFuckers</h1>
+                <h1><Link to="https://fatfuckers.netlify.app/"> FatFuckers </Link></h1>
                 <p className={classes.paragraph}>I collaborate with a collegue on this project and I can assure you is worthy. Who did not start the gym almost blindly? Feeling lost in the middle of the gym
                     or even at home? Well, this Web will help you on that. Build on React and Node.js, you will check which exercise you can do depending on the categories we
                     have defined, you can also add or remove exercises, and some other features that are yet come!
@@ -141,7 +142,7 @@ const Projects = () => {
                 </ul>
             </section>
             <section className={classes.queseria}>
-                <h1>Quesería el Bregador</h1>
+                <h1><Link to="https://santimora06.github.io/QueseriaElBregador.es/">Quesería el Bregador </Link></h1>
                 <p className={classes.paragraph}>This page is something else. It was great the output just 2 months after I started studying by myself Web Development. Nothing too fancy, basic styling, some
                     mock data mixed with real data. Build on HTML and CSS, I can tell you I am really happy to make a website for the businness of my brother, feel free to check it,
                     the personal value on this one is out of limits!
